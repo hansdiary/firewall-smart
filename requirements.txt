@@ -1,0 +1,40 @@
+# ==========================
+# Firewall Intelligent Programmable - Requirements
+# ==========================
+# Version : PoC + API + Autoscan
+# Python   : >= 3.9
+# ==========================
+
+# --- Core ---
+requests>=2.31.0
+
+# --- API REST (FastAPI + serveur ASGI) ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+
+# --- Base de données / stockage ---
+sqlalchemy>=2.0.30
+pydantic>=2.8.0
+
+# --- Logs & utils ---
+python-dotenv>=1.0.1
+loguru>=0.7.2
+
+# --- Autoscan / Analyse ---
+watchdog>=4.0.1          # pour surveiller les fichiers de logs
+scikit-learn>=1.5.2      # pour l’auto-apprentissage (IsolationForest)
+pandas>=2.2.2             # utile pour analyser les logs et statistiques
+
+# --- Tests ---
+pytest>=8.2.2
+pytest-mock>=3.14.0
+
+# --- Sécurité & Validation ---
+validators>=0.22.0
+
+# ==========================
+# Notes :
+# - Uvicorn lance l'API :   uvicorn api.main:app --reload
+# - Watchdog surveille /var/log pour autoscan.
+# - Loguru gère la journalisation simple et propre.
+# ==========================
