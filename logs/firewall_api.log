@@ -1,0 +1,35 @@
+2025-11-08 11:56:01.717 | INFO     | api.main:add_rule:130 - Règle ajoutée : BLOCK 192.168.1.10:22
+2025-11-08 12:19:37.100 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.12.2 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:19:45.703 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.12.2 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:19:45.706 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.12.1 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:19:45.711 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.12.1 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:19:45.716 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.12.1 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:19:45.719 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.120.12 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:19:45.723 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.12.1 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:19:45.719 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -A INPUT -s 192.168.120.12 -p tcp --dport 80 -j DROP' died with <Signals.SIGINT: 2>.
+2025-11-08 12:23:19.399 | INFO     | api.main:add_rule:143 - Règle ajoutée : BLOCK 192.168.12.3:80
+2025-11-08 12:23:26.950 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -D INPUT -s 192.168.1.10 -j DROP || sudo iptables -D INPUT -s 192.168.1.10 -j ACCEPT' returned non-zero exit status 1.
+2025-11-08 12:23:34.811 | ERROR    | api.main:run_cmd:76 - Erreur commande : Command 'sudo iptables -D INPUT -s 192.168.12.3 -j DROP || sudo iptables -D INPUT -s 192.168.12.3 -j ACCEPT' returned non-zero exit status 1.
+2025-11-08 12:34:47.389 | WARNING  | api.main:remove_rule:170 - Aucune règle iptables correspondante trouvée pour 192.168.1.10
+2025-11-08 12:37:47.837 | WARNING  | api.main:remove_rule:170 - Aucune règle iptables correspondante trouvée pour 192.168.12.3
+2025-11-08 12:44:04.557 | INFO     | api.main:add_rule:140 - Règle ajoutée : BLOCK 132.168.12.13:None
+2025-11-08 12:44:31.481 | INFO     | api.main:remove_rule:155 - Règle supprimée d'iptables et DB : ip=IPv4Address('132.168.12.13') port=None action='BLOCK' protocol='tcp' id=3 created_at='2025-11-08T12:44:04.105906'
+2025-11-08 13:16:33.871 | INFO     | api.main:add_rule:184 - Règle ajoutée : BLOCK None:80
+2025-11-08 13:20:26.949 | WARNING  | api.main:remove_rule:220 - Aucune règle iptables correspondante pour None:80
+2025-11-08 13:23:13.435 | INFO     | api.main:add_rule:205 - Règle ajoutée : BLOCK None:22
+2025-11-08 13:23:37.226 | WARNING  | api.main:remove_rule:225 - Aucune règle iptables correspondante pour None:22
+2025-11-08 13:48:22.253 | INFO     | api.main:add_rule:154 - Règle ajoutée : BLOCK 192.168.26.2:80
+2025-11-08 13:48:54.384 | ERROR    | api.main:run_cmd:74 - Erreur commande iptables : sudo iptables -D INPUT -s 192.168.26.2 -p tcp --dport 80 -j ACCEPT -> Command '['sudo', 'iptables', '-D', 'INPUT', '-s', '192.168.26.2', '-p', 'tcp', '--dport', '80', '-j', 'ACCEPT']' returned non-zero exit status 1.
+2025-11-08 13:48:54.591 | INFO     | api.main:remove_rule:172 - Règle supprimée : 192.168.26.2:80 (id=6)
+2025-11-08 13:52:31.731 | INFO     | api.main:add_rule:154 - Règle ajoutée : BLOCK None:80
+2025-11-08 13:52:47.915 | ERROR    | api.main:run_cmd:74 - Erreur commande iptables : sudo iptables -D INPUT -p tcp --dport 80 -j ACCEPT -> Command '['sudo', 'iptables', '-D', 'INPUT', '-p', 'tcp', '--dport', '80', '-j', 'ACCEPT']' returned non-zero exit status 1.
+2025-11-08 13:52:48.114 | INFO     | api.main:remove_rule:172 - Règle supprimée : None:80 (id=1)
+2025-11-08 13:53:16.909 | INFO     | api.main:add_rule:154 - Règle ajoutée : BLOCK None:80
+2025-11-08 13:53:24.547 | ERROR    | api.main:run_cmd:74 - Erreur commande iptables : sudo iptables -D INPUT -p tcp --dport 80 -j ACCEPT -> Command '['sudo', 'iptables', '-D', 'INPUT', '-p', 'tcp', '--dport', '80', '-j', 'ACCEPT']' returned non-zero exit status 1.
+2025-11-08 13:53:25.526 | INFO     | api.main:remove_rule:172 - Règle supprimée : None:80 (id=2)
+2025-11-08 13:55:03.935 | INFO     | api.main:add_rule:160 - Règle ajoutée : BLOCK None:80
+2025-11-08 13:55:12.509 | INFO     | api.main:remove_rule:178 - Règle supprimée : None:80 (id=3)
+2025-11-08 14:16:28.502 | INFO     | api.main:add_rule:160 - Règle ajoutée : BLOCK None:80
+2025-11-08 14:16:32.629 | INFO     | api.main:remove_rule:178 - Règle supprimée : None:80 (id=4)
+2025-11-08 14:32:52.337 | INFO     | api.main:add_rule:160 - Règle ajoutée : BLOCK 192.168.12.1:80
+2025-11-08 14:40:29.867 | INFO     | api.main:remove_rule:178 - Règle supprimée : 192.168.12.1:80 (id=5)

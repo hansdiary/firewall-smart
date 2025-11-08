@@ -18,7 +18,7 @@ pydantic>=2.8.0
 
 # --- Logs & utils ---
 python-dotenv>=1.0.1
-loguru>=0.7.2
+loguru>=0.7.2                           
 
 # --- Autoscan / Analyse ---
 watchdog>=4.0.1          # pour surveiller les fichiers de logs
