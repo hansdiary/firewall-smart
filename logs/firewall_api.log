@@ -33,3 +33,9 @@
 2025-11-08 14:16:32.629 | INFO     | api.main:remove_rule:178 - Règle supprimée : None:80 (id=4)
 2025-11-08 14:32:52.337 | INFO     | api.main:add_rule:160 - Règle ajoutée : BLOCK 192.168.12.1:80
 2025-11-08 14:40:29.867 | INFO     | api.main:remove_rule:178 - Règle supprimée : 192.168.12.1:80 (id=5)
+2025-11-08 15:14:14.381 | INFO     | api.main:add_rule:154 - Règle ajoutée : BLOCK None:80
+2025-11-08 15:14:18.420 | ERROR    | api.main:run_cmd:74 - Erreur commande iptables : sudo iptables -D INPUT -p tcp --dport 80 -j ACCEPT -> Command '['sudo', 'iptables', '-D', 'INPUT', '-p', 'tcp', '--dport', '80', '-j', 'ACCEPT']' returned non-zero exit status 1.
+2025-11-08 15:14:18.820 | INFO     | api.main:remove_rule:172 - Règle supprimée : None:80 (id=6)
+2025-11-08 15:18:19.262 | INFO     | api.main:add_rule:193 - Règle ajoutée : BLOCK None:80
+2025-11-08 15:18:29.882 | INFO     | api.main:delete_rule_from_iptables:134 - Règle iptables supprimée (ligne 1) : ip=None, port=80
+2025-11-08 15:18:31.188 | INFO     | api.main:remove_rule:211 - Règle supprimée : None:80 (id=7)
