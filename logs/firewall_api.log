@@ -39,3 +39,128 @@
 2025-11-08 15:18:19.262 | INFO     | api.main:add_rule:193 - Règle ajoutée : BLOCK None:80
 2025-11-08 15:18:29.882 | INFO     | api.main:delete_rule_from_iptables:134 - Règle iptables supprimée (ligne 1) : ip=None, port=80
 2025-11-08 15:18:31.188 | INFO     | api.main:remove_rule:211 - Règle supprimée : None:80 (id=7)
+2025-11-08 15:22:14.070 | INFO     | api.main:add_rule:193 - Règle ajoutée : BLOCK None:80
+2025-11-08 15:23:16.152 | INFO     | api.main:delete_rule_from_iptables:134 - Règle iptables supprimée (ligne 1) : ip=None, port=80
+2025-11-08 15:23:16.906 | INFO     | api.main:remove_rule:211 - Règle supprimée : None:80 (id=8)
+2025-11-08 15:25:23.324 | INFO     | api.main:add_rule:193 - Règle ajoutée : BLOCK None:80
+2025-11-10 09:53:01.330 | INFO     | api.ai_detector.sniffer:start_sniffer:59 - 🧠 IDS/IPS ML démarré…
+2025-11-10 09:53:02.696 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:03.126 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:04.125 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:04.557 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:05.228 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:05.605 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:05.782 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:05.978 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:06.176 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:06.609 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:06.881 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:07.193 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:07.304 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 35.190.80.1
+2025-11-10 09:53:07.640 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:08.221 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:08.659 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:09.245 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:09.684 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:10.283 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:10.710 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:11.291 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:11.728 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:12.317 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:12.753 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:13.345 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:13.782 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:14.368 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:19.991 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:27.165 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:32.790 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:33.010 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:34.554 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:34.640 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:34.732 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.205
+2025-11-10 09:53:34.833 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.205
+2025-11-10 09:53:34.924 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:35.193 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.205
+2025-11-10 09:53:35.357 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:35.501 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:35.596 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 09:53:35.710 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:35.807 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:35.900 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.57.157
+2025-11-10 09:53:35.986 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:36.076 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:36.195 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:36.633 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:36.778 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:37.216 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:37.653 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:38.240 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:38.434 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:38.664 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:38.878 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 20.44.10.122
+2025-11-10 09:53:39.261 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:39.532 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:39.666 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:39.775 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:40.016 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.233.158.25
+2025-11-10 09:53:40.283 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:40.817 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:42.356 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:43.006 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:43.258 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:46.126 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:46.230 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:46.381 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 09:53:46.576 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 20.44.10.122
+2025-11-10 09:53:46.707 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 20.44.10.122
+2025-11-10 09:53:46.820 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 09:53:46.933 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:17:55.783 | INFO     | api.auto_learning:monitor_logs:68 - 🧠 Démarrage du module d'auto-apprentissage…
+2025-11-10 10:59:44.634 | INFO     | api.ai_detector.sniffer:start_sniffer:59 - 🧠 IDS/IPS ML démarré…
+2025-11-10 10:59:45.028 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 52.168.117.175
+2025-11-10 10:59:45.109 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 52.168.117.175
+2025-11-10 10:59:45.326 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:45.933 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:46.991 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:47.602 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:48.053 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:48.447 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:49.035 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:49.295 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:49.524 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:49.632 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.107.213.43
+2025-11-10 10:59:50.067 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:50.639 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:50.740 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:51.055 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.107.213.43
+2025-11-10 10:59:51.149 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:51.337 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:51.580 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:52.114 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:52.501 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:52.695 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:52.785 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:53.131 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.233.158.114
+2025-11-10 10:59:53.246 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.233.158.114
+2025-11-10 10:59:53.356 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 10:59:53.715 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 13.59.68.139
+2025-11-10 10:59:54.164 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 11:00:44.007 | INFO     | api.ai_detector.sniffer:start_sniffer:59 - 🧠 IDS/IPS ML démarré…
+2025-11-10 11:00:44.911 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 11:00:45.323 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.140.139.91
+2025-11-10 11:00:45.416 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 3.233.158.114
+2025-11-10 11:01:38.554 | INFO     | api.ai_detector.sniffer:start_sniffer:59 - 🧠 IDS/IPS ML démarré…
+2025-11-10 11:01:38.712 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:38.790 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:38.872 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 11:01:38.957 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 11:01:39.030 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 11:01:39.109 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:39.190 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 11:01:39.280 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:39.364 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:39.449 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:39.538 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:39.667 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 51.132.193.105
+2025-11-10 11:01:39.763 | WARNING  | api.ai_detector.sniffer:process_packet:51 - ❌ IP suspecte détectée : 10.91.13.109
+2025-11-10 11:04:06.035 | INFO     | api.auto_learning:monitor_logs:68 - 🧠 Démarrage du module d'auto-apprentissage…
