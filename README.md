@@ -1,6 +1,6 @@
 # Firewall intelligent programmable — README
 
-## ⚙️ Contexte & objectif
+## Contexte & objectif
 Ce projet a pour but de fournir un **PoC** (preuve de concept) d’un « firewall intelligent programmable » :
 - manipuler les règles `iptables` depuis Python de façon sécurisée,  
 - fournir une interface (CLI pour le PoC, API REST prévue),  
@@ -10,7 +10,7 @@ C’est un prototype pour usage en environnement de développement/VM isolée �
 
 ---
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 - **Module `IptablesCtl` (PoC)** :
   - ajouter une règle DROP ciblant une IP (IPv4/IPv6 validée),
   - lister les règles (avec `--line-numbers`),
@@ -20,7 +20,7 @@ C’est un prototype pour usage en environnement de développement/VM isolée �
 - **Tests unitaires** qui moquent `subprocess.run` pour éviter toute modification réelle d’iptables lors des tests.
 
 
-## 🧩 Architecture du projet
+## Architecture du projet
 
 firewall-smart/
 ├── api/ # (à venir) FastAPI app
@@ -38,7 +38,7 @@ firewall-smart/
 
 ---
 
-## 🧰 Prérequis
+## Prérequis
 - Linux (iptables) — testé sur distributions classiques.  
 - Python 3.9+ (3.10 recommandé).  
 - Pour exécuter les commandes réelles : privilèges root (ou capability `CAP_NET_ADMIN` dans un conteneur).  
